@@ -35,7 +35,6 @@ tasks.withType<Test> {
 tasks.getByName<JacocoReport>("jacocoTestReport") {
     reports {
         xml.isEnabled = true
-        xml.destination = File("$buildDir/reports/jacoco/report.xml")
         html.isEnabled = true
     }
 }
