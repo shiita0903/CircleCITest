@@ -31,4 +31,13 @@ internal class DoubleNumberTest {
 
         assertEquals(expected, dn.number)
     }
+
+    @Test
+    fun testNumber_1() {
+        val expected = 2
+
+        val dn = DoubleNumber(1)
+
+        assertEquals(expected, dn.number)
+    }
 }
