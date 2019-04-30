@@ -34,8 +34,7 @@ internal class DoubleNumberTest {
 
     @Test
     fun testNumber_1() {
-        // failed test
-        val expected = 3
+        val expected = 2
 
         val dn = DoubleNumber(1)
 
